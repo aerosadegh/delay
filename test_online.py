@@ -1,4 +1,4 @@
-'''test online mode'''
+'''test in online mode'''
 
 from delay import Delay
 from termcolor import colored
@@ -30,3 +30,4 @@ for c in l:
     print(colored(str(c) + conn + str(out) , color, on_c, attrs=['bold']))
     print("$$"*20)
     print()
+
