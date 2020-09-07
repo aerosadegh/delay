@@ -5,7 +5,7 @@ from termcolor import colored
 import time
 
 
-dele = Delay(delay_on=2, delay_off=0)
+delay_online = Delay(delay_on=2, delay_off=0)
 
 insec = 2
 rep = 2
@@ -23,7 +23,7 @@ l += ([True]*6*insec + [False]*6*insec) * rep
 for c in l:
     time.sleep(0.4)
     inp = c
-    out = dele(c)
+    out = delay_online(c)
     color = "green" if inp == out else "grey"
     on_c = "on_white" if inp == out else "on_red"   
     conn = " ---------- " if inp == out else " ----/---- " 
