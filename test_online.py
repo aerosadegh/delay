@@ -5,6 +5,10 @@ from termcolor import colored
 import time
 
 
+print("\n\n$$$$$$$$$$$\     ONLINE MODE      $$$$$$$$$$$\n\n")
+# Test Delay in online mode
+
+
 delay_online = Delay(delay_on=2, delay_off=0)
 
 insec = 2

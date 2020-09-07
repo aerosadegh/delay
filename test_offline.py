@@ -1,10 +1,11 @@
 ##   Test Delay in offline mode  (data with time)
-
+from delay import Delay
+from termcolor import colored
 from random import randrange, choice, seed
 import datetime 
 
 print("\n\n$$$$$$$$$$$     OFFLINE MODE      $$$$$$$$$$$\n\n")
-
+# Test Delay in offline mode
 
 seed(123456)
 prev = False
